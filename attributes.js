@@ -6,7 +6,7 @@ module.exports = [
     base: 100,
     formula: {
       requires: [],
-      fn: state => function (character, health) {
+      fn: function (character, health) {
         return health + (character.level ** 2);
       },
     },
